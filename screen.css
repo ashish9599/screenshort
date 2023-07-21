@@ -17,8 +17,8 @@ body{
     box-shadow: 0px 0px 5px rgb(174, 173, 173);
 }
 .main .nav{
-    
-    background-color:#fafafa  ;
+/* background-color: red;     */
+    /* background-color:#fafafa  ; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,24 +106,37 @@ body{
         align-items: center;
         margin-bottom: 10px;
         background-color: #fafafa;
+        cursor: pointer;
     }
+    
     .cemap h5{
-    margin: 0;
-    color:#3e4452;
-}
-.cemap img{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-}
-
-.li_Name{
+        margin: 0;
+        color:#3e4452;
+    }
+    .cemap img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    
+    .li_Name{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 .li_Name p{
     font-size: 11px;
+}
+#check{
+ cursor: pointer;
+}
+#check:checked {
+        accent-color: #ec9324;
+    }
+ #check:checked~label{
+    /* color: #dcdcdc; */
+color: #ec9324;
 }
 
 
@@ -147,6 +160,7 @@ body{
 .footer button{
     height: 30px;
     border-radius: 40px;
+    cursor: pointer;
     width:90px;
     font-weight: 200;
     
@@ -163,6 +177,7 @@ body{
 }
 
 .niongrey{
+    cursor: pointer;
     color: #a1a1a1;
     font-size: 15px;
 }
@@ -177,7 +192,7 @@ body{
     }
     .pdet{
         left: 22%;
-       }
+    }
     
 }
 
